@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
 void main(){ // simple realloc program
-    int n,new,choice,sum=0;
+    int n,new,choice;
+    float sum=0;
     printf("enter number of items:\n");
     scanf("%d",&n);
     float *arr;
@@ -25,8 +26,11 @@ void main(){ // simple realloc program
             printf("price of item %d is %.2f\n",(i+1),arr[i]);
         }
         printf("total price =%.2f\n",sum);
+    }
+    
+       
 
                
     
-}
+
 }
